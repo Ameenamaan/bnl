@@ -120,6 +120,7 @@ async def start(bot, message):
              
         [[
         InlineKeyboardButton('➕️ Add Me To Your Group ➕️', url='http://t.me/Autofilter_TGR_Bot?startgroup=true'),
+        ],[
         InlineKeyboardButton("ℹ️ Help", callback_data="help"),
         InlineKeyboardButton('🤴 Dev', url ='https://t.me/Ameen_Ameen_12'),           
         InlineKeyboardButton("About", callback_data="about"),
