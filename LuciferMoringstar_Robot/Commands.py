@@ -117,7 +117,7 @@ async def start(bot, message):
             parse_mode="Markdown",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup((
-                buttons = [[
+                buttons = 
         InlineKeyboardButton('➕️ Add Me To Your Group ➕️', url='http://t.me/Autofilter_TGR_Bot?startgroup=true'),
       InlineKeyboardButton("ℹ️ Help", callback_data="help"),
      InlineKeyboardButton('🤴 Dev', url ='https://t.me/Ameen_Ameen_12'),             
@@ -127,7 +127,7 @@ async def start(bot, message):
 InlineKeyboardButton('⭕️ Channel', url ='https://t.me/HDmovieDp')
     ],[
         InlineKeyboardButton('🕵️ Any Doubts 🕵️', url='https://t.me/Ameen_Ameen_12')
-    ]]
+    
             )
         )
         StopPropagation
