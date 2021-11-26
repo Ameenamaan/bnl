@@ -116,8 +116,9 @@ async def start(bot, message):
             START_MSG,
             parse_mode="Markdown",
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(
-                
+            reply_markup=InlineKeyboardMarkup()
+             
+        [[
         InlineKeyboardButton('➕️ Add Me To Your Group ➕️', url='http://t.me/Autofilter_TGR_Bot?startgroup=true'),
       InlineKeyboardButton("ℹ️ Help", callback_data="help"),
      InlineKeyboardButton('🤴 Dev', url ='https://t.me/Ameen_Ameen_12'),           
