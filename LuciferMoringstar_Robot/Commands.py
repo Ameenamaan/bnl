@@ -117,13 +117,16 @@ async def start(bot, message):
             parse_mode="Markdown",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [[
-                InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                InlineKeyboardButton("More Botz", url="https://t.me/MT_Botz")
+                buttons = [[
+        InlineKeyboardButton('➕️ Add Me To Your Group ➕️', url='http://t.me/Autofilter_TGR_Bot?startgroup=true'),
+      InlineKeyboardButton("ℹ️ Help", callback_data="help"),
+     InlineKeyboardButton('🤴 Dev', url ='https://t.me/Ameen_Ameen_12'),               InlineKeyboardButton("About", callback_data="about"),
                 ],[
-                InlineKeyboardButton("Help", callback_data="help"),
-                InlineKeyboardButton("About", callback_data="about")
-                ]]
+                   InlineKeyboardButton('♻️ Group', url='https://t.me/HDmoviePp'),
+InlineKeyboardButton('⭕️ Channel', url ='https://t.me/HDmovieDp')
+    ],[
+        InlineKeyboardButton('🕵️ Any Doubts 🕵️', url='https://t.me/Ameen_Ameen_12')
+    ]]
             )
         )
         StopPropagation
