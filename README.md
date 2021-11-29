@@ -1,3 +1,6 @@
+<h1 align=center>⭕️Manager Bot</h1>
+<img src = "https://telegra.ph/file/9f981de2ed2f210ee812f.jpg">
+
 ### [LuciferMoringstar_Robot](https://telegram.dog/LuciferMoringstar_Robot)
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/PR0FESS0R-99/LuciferMoringstar_Robot?style=social)
